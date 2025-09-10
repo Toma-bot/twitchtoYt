@@ -27,8 +27,8 @@ Objectif : Gagner du temps et transformer automatiquement les VODs Twitch en vid
 pip install -r requirements.txt
 
 ### 3. Installer les binaires externes
-ffmpeg (requis pour le découpage et l’upload vidéo)
-Tesseract OCR (requis pour la détection du chrono)
+- ffmpeg (requis pour le découpage et l’upload vidéo)
+- Tesseract OCR (requis pour la détection du chrono)
 
 ## 🔑 Configuration
 ### 1. Twitch
