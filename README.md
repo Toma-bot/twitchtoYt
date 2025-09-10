@@ -7,7 +7,6 @@ Objectif : Gagner du temps et transformer automatiquement les VODs Twitch en vid
 
 
 ## 🚀 Fonctionnalités
-
 - 🔑 Authentification OAuth **Twitch** et **YouTube**
 - ⏬ Téléchargement automatique des VODs Twitch récentes (moins de 48h)
 - ✂️ Découpage intelligent des parties de League of Legends grâce à l’OCR du chrono
@@ -17,13 +16,12 @@ Objectif : Gagner du temps et transformer automatiquement les VODs Twitch en vid
 - 🔁 Pipeline complet `run_pipeline.py` orchestrant toutes les étapes
 
 ## ⚙️ Installation
-
 ### 1. Cloner le repo et créer un environnement virtuel
-git clone https://github.com/Toma-bot/twitchtoYt.git
-cd twitchtoYt
-python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+- git clone https://github.com/Toma-bot/twitchtoYt.git
+- cd twitchtoYt
+- python -m venv venv
+- source venv/bin/activate      # Linux/Mac
+- venv\Scripts\activate         # Windows
 
 ### 2. Installer les dépendances
 pip install -r requirements.txt
@@ -38,11 +36,11 @@ Tesseract OCR (requis pour la détection du chrono)
 1. Connecte-toi sur Twitch Developer Console
 2. Clique sur Register Your Application
 3. Remplis le formulaire : 
-    OAuth Redirect URL : http://localhost:3000/callback
-    Category : Application Integration.
+    - OAuth Redirect URL : http://localhost:3000/callback
+    - Category : Application Integration.
 4. Récupère et place dans config/.env:
-    Client ID → à placer dans TWITCH_CLIENT_ID
-    New Secret → à placer dans TWITCH_CLIENT_SECRET
+    - Client ID → à placer dans TWITCH_CLIENT_ID
+    - New Secret → à placer dans TWITCH_CLIENT_SECRET
 
 ### 2. Youtube
 1. Va sur Google Cloud Console
@@ -50,8 +48,8 @@ Tesseract OCR (requis pour la détection du chrono)
 3. Crée un identifiant OAuth 2.0
 4. Télécharge le fichier JSON → renomme-le client_secret_<profile>.json
 5. Place le dans config/
+
 Au premier upload, le script ouvrira ton navigateur pour choisir le compte YouTube où publier.
 
-▶️ Utilisation
-
+# ▶️ Utilisation
 Pour exécuter toutes les étapes : python run_pipeline.py
