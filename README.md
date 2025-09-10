@@ -7,12 +7,12 @@ Objectif : Gagner du temps et transformer automatiquement les VODs Twitch en vid
 
 
 ## 🚀 Fonctionnalités
-- 🔑 Authentification OAuth **Twitch** et **YouTube**
+- 🔑 Authentification OAuth Twitch et YouTube
 - ⏬ Téléchargement automatique des VODs Twitch récentes (moins de 48h)
 - ✂️ Découpage intelligent des parties de League of Legends grâce à l’OCR du chrono
-- 📝 Génération automatique de **titres, descriptions, tags et hashtags**
+- 📝 Génération automatique de titres, descriptions, tags et hashtags
 - 📸 Miniatures générées automatiquement
-- 📤 Upload sur **YouTube**
+- 📤 Upload sur YouTube
 - 🔁 Pipeline complet `run_pipeline.py` orchestrant toutes les étapes
 
 ## ⚙️ Installation
@@ -31,7 +31,6 @@ ffmpeg (requis pour le découpage et l’upload vidéo)
 Tesseract OCR (requis pour la détection du chrono)
 
 ## 🔑 Configuration
-
 ### 1. Twitch
 1. Connecte-toi sur Twitch Developer Console
 2. Clique sur Register Your Application
