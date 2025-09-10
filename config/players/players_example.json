@@ -1,0 +1,11 @@
+{
+  "Supa": {
+    "aliases": ["supa", "supa_lol", "DavidSupa"],
+    "image": "players/supa_lol.webp",
+    "team": "Movistar KOI",
+    "team-image": "logos/Movistar.webp",
+    "role": "Bot Laner",
+    "palmares": "2x Superliga Finals MVP",
+    "color": "#e11d48"
+  }
+}
